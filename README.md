@@ -50,7 +50,7 @@ data = pd.read_csv("Mall_Customers.csv")
 print(data.head())
 print(data.info())
 
-# Implementation-of-KMeans-Clustering-for-Customer-Segmentation/README.md at main · Deepikaasuresh304/Implementation-of-KMeans-Clustering-for-Customer-Segmentation/blob/main/README.md
+
 print(data.isnull().sum())
 
 # Elbow method to find optimal number of clusters
